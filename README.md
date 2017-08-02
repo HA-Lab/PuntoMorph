@@ -2,7 +2,7 @@
 High content analysis of phagocytic activity and cell morphology
 
 ## Installing the standalone executable on Windows
-Download and run the PuntoMorph1.2.exe file to install PuntoMorph on your machine. This will require you to install the appropriate MATLAB runtime environment. Note that you will need a 64-bit Windows (and administrator access) to install the standalone software.<br />
+Download and run the PuntoMorph1.2.exe file to install PuntoMorph on your machine. This will require you to install the appropriate MATLAB runtime environment. Note that you will need a 64-bit Windows (and administrator access) to install the standalone software.<br /><br />
 Depending on the speed of your computer, PuntoMorph may take a few minutes to start the first time you run it. Please be patient. 
 
 ## Compiling standalone software for Mac or Linux
