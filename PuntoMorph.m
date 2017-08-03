@@ -121,7 +121,7 @@ try
         result(1,1:12)={'Folder' 'Image' 'Cell number' 'Part of normal distribution' 'Area' 'Convex Area' 'Splay Index' 'Perimeter' 'Convex Perimiter' 'Eccentricity' 'Ruffling' 'Beads per cell'};
         
         %Find all images and their paths under current folder
-        dnfiles = getfilenamesi(pwd,horzcat('*',picformat));  %Specify directory here
+        dnfiles = getfilenames(pwd,horzcat('*',picformat));  %Specify directory here
         [Missingmdb,~] = strtok(dnfiles,'.'); %Extracts first part of filename
         DBFile(1,1:length(dnfiles)) = {''}; %Initialize vars for speed
         DBPath(1,1:length(dnfiles)) = {''};
